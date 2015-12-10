@@ -1,0 +1,38 @@
+2014-08-05T10:31:17.578+0800 [initandlisten] MongoDB starting : pid=2632 port=27017 dbpath=E:\LiveServer\bin\mongodb\data\db 32-bit host=Â¬ÊÀ½Ü
+2014-08-05T10:31:17.578+0800 [initandlisten] 
+2014-08-05T10:31:17.578+0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2014-08-05T10:31:17.578+0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2014-08-05T10:31:17.578+0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2014-08-05T10:31:17.578+0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2014-08-05T10:31:17.578+0800 [initandlisten] 
+2014-08-05T10:31:17.578+0800 [initandlisten] ** NOTE: your operating system version does not support the method that MongoDB
+2014-08-05T10:31:17.578+0800 [initandlisten] **       uses to detect impending page faults.
+2014-08-05T10:31:17.578+0800 [initandlisten] **       This may result in slower performance for certain use cases
+2014-08-05T10:31:17.578+0800 [initandlisten] 
+2014-08-05T10:31:17.578+0800 [initandlisten] targetMinOS: Windows XP SP3
+2014-08-05T10:31:17.578+0800 [initandlisten] db version v2.6.3
+2014-08-05T10:31:17.578+0800 [initandlisten] git version: 255f67a66f9603c59380b2a389e386910bbb52cb
+2014-08-05T10:31:17.578+0800 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2014-08-05T10:31:17.578+0800 [initandlisten] allocator: system
+2014-08-05T10:31:17.578+0800 [initandlisten] options: { storage: { dbPath: "E:\LiveServer\bin\mongodb\data\db" }, systemLog: { destination: "file", path: "E:\LiveServer\bin\mongodb\data\log\mongoDB.log" } }
+2014-08-05T10:31:17.656+0800 [FileAllocator] allocating new datafile E:\LiveServer\bin\mongodb\data\db\local.ns, filling with zeroes...
+2014-08-05T10:31:17.656+0800 [FileAllocator] creating directory E:\LiveServer\bin\mongodb\data\db\_tmp
+2014-08-05T10:31:17.687+0800 [FileAllocator] done allocating datafile E:\LiveServer\bin\mongodb\data\db\local.ns, size: 16MB,  took 0.001 secs
+2014-08-05T10:31:17.703+0800 [FileAllocator] allocating new datafile E:\LiveServer\bin\mongodb\data\db\local.0, filling with zeroes...
+2014-08-05T10:31:17.703+0800 [FileAllocator] done allocating datafile E:\LiveServer\bin\mongodb\data\db\local.0, size: 64MB,  took 0.001 secs
+2014-08-05T10:31:17.703+0800 [initandlisten] build index on: local.startup_log properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "local.startup_log" }
+2014-08-05T10:31:17.703+0800 [initandlisten] 	 added index to empty collection
+2014-08-05T10:31:17.703+0800 [initandlisten] waiting for connections on port 27017
+2014-08-05T10:31:28.937+0800 CTRL_CLOSE_EVENT signal
+2014-08-05T10:31:28.937+0800 [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2014-08-05T10:31:28.937+0800 [consoleTerminate] now exiting
+2014-08-05T10:31:28.937+0800 [consoleTerminate] dbexit: 
+2014-08-05T10:31:28.937+0800 [consoleTerminate] shutdown: going to close listening sockets...
+2014-08-05T10:31:28.937+0800 [consoleTerminate] closing listening socket: 1648
+2014-08-05T10:31:28.937+0800 [consoleTerminate] shutdown: going to flush diaglog...
+2014-08-05T10:31:28.937+0800 [consoleTerminate] shutdown: going to close sockets...
+2014-08-05T10:31:28.937+0800 [consoleTerminate] shutdown: waiting for fs preallocator...
+2014-08-05T10:31:28.937+0800 [consoleTerminate] shutdown: closing all files...
+2014-08-05T10:31:28.937+0800 [consoleTerminate] closeAllFiles() finished
+2014-08-05T10:31:28.937+0800 [consoleTerminate] shutdown: removing fs lock...
+2014-08-05T10:31:28.937+0800 [consoleTerminate] dbexit: really exiting now

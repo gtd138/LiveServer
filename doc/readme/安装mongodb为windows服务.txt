@@ -1,0 +1,7 @@
+安装mongodb为windows服务
+
+E:\MongoDB\bin>mongod --dbpath "E:\LiveServer\bin\mongodb\data\db" --logpath "E:\LiveServer\bin\mongodb\data\log\mongoDB.log" --install --serviceName "LiveServerDB"
+
+>NET START MongoDB   (开启服务）
+
+>NET stop MongoDB   (关闭服务)

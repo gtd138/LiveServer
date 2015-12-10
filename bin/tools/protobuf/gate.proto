@@ -1,0 +1,8 @@
+// Gate服消息
+package msg_proto;
+
+// 登录请求
+message RequestLogin {
+	required string username = 1; 	// 用户名
+	required string password = 2; 	// 密码
+}

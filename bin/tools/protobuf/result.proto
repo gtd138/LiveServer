@@ -1,0 +1,7 @@
+// 操作结果
+package msg_proto;
+import "error.proto";
+
+message CmdResult{
+	required Error error_code = 1;
+}

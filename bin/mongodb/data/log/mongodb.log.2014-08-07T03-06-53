@@ -1,0 +1,96 @@
+2014-08-07T09:49:40.000+0800 Trying to start Windows service 'MongoDB'
+2014-08-07T09:49:40.000+0800 Service running
+2014-08-07T09:49:40.312+0800 [initandlisten] MongoDB starting : pid=2132 port=27017 dbpath=e:\liveserver\bin\mongodb\data\db 32-bit host=Â¬ÊÀ½Ü
+2014-08-07T09:49:40.312+0800 [initandlisten] 
+2014-08-07T09:49:40.312+0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2014-08-07T09:49:40.312+0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2014-08-07T09:49:40.312+0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2014-08-07T09:49:40.312+0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2014-08-07T09:49:40.312+0800 [initandlisten] 
+2014-08-07T09:49:40.312+0800 [initandlisten] ** NOTE: your operating system version does not support the method that MongoDB
+2014-08-07T09:49:40.312+0800 [initandlisten] **       uses to detect impending page faults.
+2014-08-07T09:49:40.312+0800 [initandlisten] **       This may result in slower performance for certain use cases
+2014-08-07T09:49:40.312+0800 [initandlisten] 
+2014-08-07T09:49:40.312+0800 [initandlisten] targetMinOS: Windows XP SP3
+2014-08-07T09:49:40.312+0800 [initandlisten] db version v2.6.3
+2014-08-07T09:49:40.312+0800 [initandlisten] git version: 255f67a66f9603c59380b2a389e386910bbb52cb
+2014-08-07T09:49:40.312+0800 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2014-08-07T09:49:40.312+0800 [initandlisten] allocator: system
+2014-08-07T09:49:40.312+0800 [initandlisten] options: { service: true, storage: { dbPath: "e:\liveserver\bin\mongodb\data\db" }, systemLog: { destination: "file", path: "e:\liveserver\bin\mongodb\data\log\mongodb.log" } }
+2014-08-07T09:49:46.875+0800 [initandlisten] query admin.system.roles planSummary: EOF ntoreturn:0 ntoskip:0 nscanned:0 nscannedObjects:0 keyUpdates:0 numYields:0 locks(micros) W:510 r:470811 nreturned:0 reslen:20 470ms
+2014-08-07T09:49:58.265+0800 [initandlisten] command local.$cmd command: create { create: "startup_log", size: 10485760, capped: true } ntoreturn:1 keyUpdates:0 numYields:0  reslen:75 142ms
+2014-08-07T09:49:58.390+0800 [initandlisten] insert local.startup_log ninserted:1 keyUpdates:0 numYields:0  122ms
+2014-08-07T09:49:58.390+0800 [initandlisten] waiting for connections on port 27017
+2014-08-07T09:50:46.937+0800 [PeriodicTaskRunner] task: DBConnectionPool-cleaner took: 18ms
+2014-08-07T09:50:46.953+0800 [PeriodicTaskRunner] task: WriteBackManager::cleaner took: 8ms
+2014-08-07T09:50:52.250+0800 [clientcursormon] mem (MB) res:79 virt:317
+2014-08-07T09:50:52.250+0800 [clientcursormon]  mapped:240
+2014-08-07T09:50:52.250+0800 [clientcursormon]  connections:0
+2014-08-07T09:55:52.250+0800 [clientcursormon] mem (MB) res:79 virt:317
+2014-08-07T09:55:52.250+0800 [clientcursormon]  mapped:240
+2014-08-07T09:55:52.250+0800 [clientcursormon]  connections:0
+2014-08-07T10:00:52.250+0800 [clientcursormon] mem (MB) res:79 virt:317
+2014-08-07T10:00:52.250+0800 [clientcursormon]  mapped:240
+2014-08-07T10:00:52.250+0800 [clientcursormon]  connections:0
+2014-08-07T10:05:52.250+0800 [clientcursormon] mem (MB) res:79 virt:317
+2014-08-07T10:05:52.250+0800 [clientcursormon]  mapped:240
+2014-08-07T10:05:52.250+0800 [clientcursormon]  connections:0
+2014-08-07T10:10:11.203+0800 [initandlisten] connection accepted from 127.0.0.1:15653 #1 (1 connection now open)
+2014-08-07T10:10:52.250+0800 [clientcursormon] mem (MB) res:79 virt:318
+2014-08-07T10:10:52.250+0800 [clientcursormon]  mapped:240
+2014-08-07T10:10:52.250+0800 [clientcursormon]  connections:1
+2014-08-07T10:15:52.250+0800 [clientcursormon] mem (MB) res:79 virt:318
+2014-08-07T10:15:52.250+0800 [clientcursormon]  mapped:240
+2014-08-07T10:15:52.250+0800 [clientcursormon]  connections:1
+2014-08-07T10:20:52.250+0800 [clientcursormon] mem (MB) res:79 virt:318
+2014-08-07T10:20:52.250+0800 [clientcursormon]  mapped:240
+2014-08-07T10:20:52.250+0800 [clientcursormon]  connections:1
+2014-08-07T10:25:52.250+0800 [clientcursormon] mem (MB) res:79 virt:318
+2014-08-07T10:25:52.250+0800 [clientcursormon]  mapped:240
+2014-08-07T10:25:52.250+0800 [clientcursormon]  connections:1
+2014-08-07T10:30:52.250+0800 [clientcursormon] mem (MB) res:79 virt:318
+2014-08-07T10:30:52.250+0800 [clientcursormon]  mapped:240
+2014-08-07T10:30:52.250+0800 [clientcursormon]  connections:1
+2014-08-07T10:35:52.250+0800 [clientcursormon] mem (MB) res:79 virt:318
+2014-08-07T10:35:52.250+0800 [clientcursormon]  mapped:240
+2014-08-07T10:35:52.250+0800 [clientcursormon]  connections:1
+2014-08-07T10:40:52.250+0800 [clientcursormon] mem (MB) res:79 virt:318
+2014-08-07T10:40:52.250+0800 [clientcursormon]  mapped:240
+2014-08-07T10:40:52.250+0800 [clientcursormon]  connections:1
+2014-08-07T10:45:52.250+0800 [clientcursormon] mem (MB) res:79 virt:318
+2014-08-07T10:45:52.250+0800 [clientcursormon]  mapped:240
+2014-08-07T10:45:52.250+0800 [clientcursormon]  connections:1
+2014-08-07T10:46:05.093+0800 [conn1] end connection 127.0.0.1:15653 (0 connections now open)
+2014-08-07T10:46:23.296+0800 [initandlisten] connection accepted from 127.0.0.1:35031 #2 (1 connection now open)
+2014-08-07T10:50:52.250+0800 [clientcursormon] mem (MB) res:79 virt:318
+2014-08-07T10:50:52.250+0800 [clientcursormon]  mapped:240
+2014-08-07T10:50:52.250+0800 [clientcursormon]  connections:1
+2014-08-07T10:55:52.250+0800 [clientcursormon] mem (MB) res:79 virt:318
+2014-08-07T10:55:52.250+0800 [clientcursormon]  mapped:240
+2014-08-07T10:55:52.250+0800 [clientcursormon]  connections:1
+2014-08-07T10:59:41.984+0800 [initandlisten] connection accepted from 127.0.0.1:49421 #3 (2 connections now open)
+2014-08-07T10:59:48.718+0800 [conn3] end connection 127.0.0.1:49421 (1 connection now open)
+2014-08-07T11:00:52.250+0800 [clientcursormon] mem (MB) res:79 virt:318
+2014-08-07T11:00:52.250+0800 [clientcursormon]  mapped:240
+2014-08-07T11:00:52.250+0800 [clientcursormon]  connections:1
+2014-08-07T11:01:09.656+0800 [initandlisten] connection accepted from 127.0.0.1:50657 #4 (2 connections now open)
+2014-08-07T11:01:09.687+0800 [initandlisten] connection accepted from 127.0.0.1:50660 #5 (3 connections now open)
+2014-08-07T11:01:45.734+0800 [conn5] end connection 127.0.0.1:50660 (2 connections now open)
+2014-08-07T11:01:45.750+0800 [conn4] end connection 127.0.0.1:50657 (1 connection now open)
+2014-08-07T11:05:49.859+0800 [conn2] end connection 127.0.0.1:35031 (0 connections now open)
+2014-08-07T11:05:52.250+0800 [clientcursormon] mem (MB) res:79 virt:317
+2014-08-07T11:05:52.250+0800 [clientcursormon]  mapped:240
+2014-08-07T11:05:52.250+0800 [clientcursormon]  connections:0
+2014-08-07T11:05:55.515+0800 [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2014-08-07T11:05:55.515+0800 [serviceShutdown] now exiting
+2014-08-07T11:05:55.515+0800 [serviceShutdown] dbexit: 
+2014-08-07T11:05:55.515+0800 [serviceShutdown] shutdown: going to close listening sockets...
+2014-08-07T11:05:55.515+0800 [serviceShutdown] closing listening socket: 472
+2014-08-07T11:05:55.515+0800 [serviceShutdown] shutdown: going to flush diaglog...
+2014-08-07T11:05:55.515+0800 [serviceShutdown] shutdown: going to close sockets...
+2014-08-07T11:05:55.515+0800 [serviceShutdown] shutdown: waiting for fs preallocator...
+2014-08-07T11:05:55.515+0800 [serviceShutdown] shutdown: closing all files...
+2014-08-07T11:05:55.531+0800 [serviceShutdown] closeAllFiles() finished
+2014-08-07T11:05:55.531+0800 [serviceShutdown] shutdown: removing fs lock...
+2014-08-07T11:05:55.531+0800 [initandlisten] now exiting
+2014-08-07T11:05:55.531+0800 [initandlisten] dbexit: ; exiting immediately

@@ -1,0 +1,3 @@
+2014-08-05T10:33:11.125+0800 Trying to install Windows service 'LiveServerDB'
+2014-08-05T10:33:11.359+0800 Service 'LiveServerDB' (MongoDB) installed with command line 'E:\MongoDB\bin\mongod.exe --dbpath e:\liveserver\bin\mongodb\data\db --logpath e:\liveserver\bin\mongodb\data\log\mongodb.log --service'
+2014-08-05T10:33:11.359+0800 Service can be started from the command line with 'net start LiveServerDB'

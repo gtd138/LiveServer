@@ -1,0 +1,299 @@
+2014-08-08T09:37:40.515+0800 Trying to start Windows service 'MongoDB'
+2014-08-08T09:37:45.796+0800 Service running
+2014-08-08T09:37:45.796+0800 [initandlisten] MongoDB starting : pid=1660 port=27017 dbpath=e:\liveserver\bin\mongodb\data\db 32-bit host=Â¬ÊÀ½Ü
+2014-08-08T09:37:45.796+0800 [initandlisten] 
+2014-08-08T09:37:45.796+0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2014-08-08T09:37:45.796+0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2014-08-08T09:37:45.796+0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2014-08-08T09:37:45.796+0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2014-08-08T09:37:45.796+0800 [initandlisten] 
+2014-08-08T09:37:45.796+0800 [initandlisten] ** NOTE: your operating system version does not support the method that MongoDB
+2014-08-08T09:37:45.796+0800 [initandlisten] **       uses to detect impending page faults.
+2014-08-08T09:37:45.796+0800 [initandlisten] **       This may result in slower performance for certain use cases
+2014-08-08T09:37:45.796+0800 [initandlisten] 
+2014-08-08T09:37:45.796+0800 [initandlisten] targetMinOS: Windows XP SP3
+2014-08-08T09:37:45.796+0800 [initandlisten] db version v2.6.3
+2014-08-08T09:37:45.796+0800 [initandlisten] git version: 255f67a66f9603c59380b2a389e386910bbb52cb
+2014-08-08T09:37:45.796+0800 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2014-08-08T09:37:45.796+0800 [initandlisten] allocator: system
+2014-08-08T09:37:45.796+0800 [initandlisten] options: { service: true, storage: { dbPath: "e:\liveserver\bin\mongodb\data\db" }, systemLog: { destination: "file", path: "e:\liveserver\bin\mongodb\data\log\mongodb.log" } }
+2014-08-08T09:37:48.562+0800 [initandlisten] waiting for connections on port 27017
+2014-08-08T09:38:46.609+0800 [clientcursormon] mem (MB) res:94 virt:397
+2014-08-08T09:38:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T09:38:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T09:38:46.625+0800 [PeriodicTaskRunner] task: DBConnectionPool-cleaner took: 20ms
+2014-08-08T09:38:46.625+0800 [PeriodicTaskRunner] task: WriteBackManager::cleaner took: 8ms
+2014-08-08T09:43:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T09:43:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T09:43:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T09:48:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T09:48:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T09:48:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T09:53:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T09:53:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T09:53:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T09:58:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T09:58:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T09:58:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T10:03:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T10:03:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T10:03:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T10:08:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T10:08:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T10:08:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T10:13:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T10:13:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T10:13:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T10:18:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T10:18:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T10:18:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T10:23:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T10:23:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T10:23:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T10:28:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T10:28:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T10:28:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T10:33:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T10:33:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T10:33:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T10:38:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T10:38:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T10:38:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T10:43:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T10:43:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T10:43:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T10:48:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T10:48:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T10:48:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T10:53:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T10:53:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T10:53:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T10:58:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T10:58:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T10:58:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T11:03:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T11:03:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T11:03:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T11:08:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T11:08:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T11:08:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T11:13:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T11:13:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T11:13:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T11:18:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T11:18:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T11:18:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T11:23:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T11:23:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T11:23:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T11:28:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T11:28:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T11:28:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T11:33:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T11:33:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T11:33:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T11:38:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T11:38:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T11:38:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T11:43:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T11:43:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T11:43:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T11:48:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T11:48:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T11:48:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T11:53:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T11:53:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T11:53:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T11:58:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T11:58:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T11:58:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T12:03:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T12:03:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T12:03:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T12:08:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T12:08:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T12:08:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T12:13:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T12:13:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T12:13:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T12:18:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T12:18:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T12:18:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T12:23:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T12:23:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T12:23:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T12:28:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T12:28:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T12:28:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T12:33:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T12:33:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T12:33:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T12:38:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T12:38:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T12:38:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T12:43:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T12:43:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T12:43:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T12:48:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T12:48:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T12:48:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T12:53:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T12:53:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T12:53:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T12:58:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T12:58:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T12:58:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T13:03:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T13:03:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T13:03:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T13:08:46.609+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T13:08:46.609+0800 [clientcursormon]  mapped:320
+2014-08-08T13:08:46.609+0800 [clientcursormon]  connections:0
+2014-08-08T13:13:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T13:13:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T13:13:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T13:18:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T13:18:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T13:18:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T13:23:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T13:23:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T13:23:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T13:28:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T13:28:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T13:28:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T13:33:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T13:33:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T13:33:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T13:38:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T13:38:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T13:38:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T13:43:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T13:43:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T13:43:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T13:48:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T13:48:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T13:48:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T13:53:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T13:53:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T13:53:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T13:58:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T13:58:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T13:58:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T14:03:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T14:03:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T14:03:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T14:08:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T14:08:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T14:08:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T14:13:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T14:13:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T14:13:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T14:18:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T14:18:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T14:18:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T14:23:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T14:23:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T14:23:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T14:28:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T14:28:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T14:28:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T14:33:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T14:33:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T14:33:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T14:38:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T14:38:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T14:38:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T14:43:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T14:43:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T14:43:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T14:48:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T14:48:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T14:48:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T14:53:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T14:53:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T14:53:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T14:58:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T14:58:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T14:58:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T15:03:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T15:03:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T15:03:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T15:08:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T15:08:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T15:08:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T15:13:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T15:13:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T15:13:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T15:18:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T15:18:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T15:18:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T15:23:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T15:23:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T15:23:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T15:28:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T15:28:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T15:28:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T15:33:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T15:33:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T15:33:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T15:38:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T15:38:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T15:38:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T15:43:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T15:43:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T15:43:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T15:48:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T15:48:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T15:48:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T15:53:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T15:53:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T15:53:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T15:58:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T15:58:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T15:58:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T16:03:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T16:03:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T16:03:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T16:08:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T16:08:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T16:08:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T16:13:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T16:13:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T16:13:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T16:18:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T16:18:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T16:18:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T16:23:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T16:23:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T16:23:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T16:28:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T16:28:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T16:28:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T16:33:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T16:33:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T16:33:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T16:38:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T16:38:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T16:38:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T16:43:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T16:43:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T16:43:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T16:48:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T16:48:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T16:48:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T16:53:46.625+0800 [clientcursormon] mem (MB) res:95 virt:397
+2014-08-08T16:53:46.625+0800 [clientcursormon]  mapped:320
+2014-08-08T16:53:46.625+0800 [clientcursormon]  connections:0
+2014-08-08T16:54:02.546+0800 [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2014-08-08T16:54:02.546+0800 [serviceShutdown] now exiting
+2014-08-08T16:54:02.546+0800 [serviceShutdown] dbexit: 
+2014-08-08T16:54:02.546+0800 [serviceShutdown] shutdown: going to close listening sockets...
+2014-08-08T16:54:02.546+0800 [serviceShutdown] closing listening socket: 468
+2014-08-08T16:54:02.546+0800 [serviceShutdown] shutdown: going to flush diaglog...
+2014-08-08T16:54:02.546+0800 [serviceShutdown] shutdown: going to close sockets...
+2014-08-08T16:54:02.546+0800 [serviceShutdown] shutdown: waiting for fs preallocator...
+2014-08-08T16:54:02.546+0800 [serviceShutdown] shutdown: closing all files...
+2014-08-08T16:54:02.562+0800 [serviceShutdown] closeAllFiles() finished
+2014-08-08T16:54:02.562+0800 [serviceShutdown] shutdown: removing fs lock...
+2014-08-08T16:54:02.562+0800 [initandlisten] now exiting
+2014-08-08T16:54:02.562+0800 [initandlisten] dbexit: ; exiting immediately

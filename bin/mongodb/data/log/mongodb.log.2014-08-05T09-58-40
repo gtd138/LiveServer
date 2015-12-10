@@ -1,0 +1,366 @@
+2014-08-05T10:34:46.718+0800 Trying to start Windows service 'MongoDB'
+2014-08-05T10:34:46.734+0800 Service running
+2014-08-05T10:34:46.750+0800 [initandlisten] MongoDB starting : pid=6884 port=27017 dbpath=e:\liveserver\bin\mongodb\data\db 32-bit host=Â¬ÊÀ½Ü
+2014-08-05T10:34:46.750+0800 [initandlisten] 
+2014-08-05T10:34:46.750+0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2014-08-05T10:34:46.750+0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2014-08-05T10:34:46.750+0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2014-08-05T10:34:46.750+0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2014-08-05T10:34:46.750+0800 [initandlisten] 
+2014-08-05T10:34:46.750+0800 [initandlisten] ** NOTE: your operating system version does not support the method that MongoDB
+2014-08-05T10:34:46.750+0800 [initandlisten] **       uses to detect impending page faults.
+2014-08-05T10:34:46.750+0800 [initandlisten] **       This may result in slower performance for certain use cases
+2014-08-05T10:34:46.750+0800 [initandlisten] 
+2014-08-05T10:34:46.750+0800 [initandlisten] targetMinOS: Windows XP SP3
+2014-08-05T10:34:46.750+0800 [initandlisten] db version v2.6.3
+2014-08-05T10:34:46.750+0800 [initandlisten] git version: 255f67a66f9603c59380b2a389e386910bbb52cb
+2014-08-05T10:34:46.750+0800 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2014-08-05T10:34:46.750+0800 [initandlisten] allocator: system
+2014-08-05T10:34:46.750+0800 [initandlisten] options: { service: true, storage: { dbPath: "e:\liveserver\bin\mongodb\data\db" }, systemLog: { destination: "file", path: "e:\liveserver\bin\mongodb\data\log\mongodb.log" } }
+2014-08-05T10:34:47.031+0800 [initandlisten] waiting for connections on port 27017
+2014-08-05T10:35:46.906+0800 [clientcursormon] mem (MB) res:46 virt:157
+2014-08-05T10:35:46.906+0800 [clientcursormon]  mapped:80
+2014-08-05T10:35:46.906+0800 [clientcursormon]  connections:0
+2014-08-05T10:35:46.921+0800 [PeriodicTaskRunner] task: DBConnectionPool-cleaner took: 20ms
+2014-08-05T10:35:46.968+0800 [PeriodicTaskRunner] task: WriteBackManager::cleaner took: 41ms
+2014-08-05T10:38:01.656+0800 [initandlisten] connection accepted from 127.0.0.1:49536 #1 (1 connection now open)
+2014-08-05T10:40:46.906+0800 [clientcursormon] mem (MB) res:47 virt:158
+2014-08-05T10:40:46.906+0800 [clientcursormon]  mapped:80
+2014-08-05T10:40:46.906+0800 [clientcursormon]  connections:1
+2014-08-05T10:41:07.125+0800 [initandlisten] connection accepted from 192.168.10.90:57307 #2 (2 connections now open)
+2014-08-05T10:41:09.515+0800 [conn2] end connection 192.168.10.90:57307 (1 connection now open)
+2014-08-05T10:41:11.500+0800 [initandlisten] connection accepted from 192.168.10.90:57440 #3 (2 connections now open)
+2014-08-05T10:45:46.906+0800 [clientcursormon] mem (MB) res:47 virt:159
+2014-08-05T10:45:46.906+0800 [clientcursormon]  mapped:80
+2014-08-05T10:45:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T10:48:04.515+0800 [conn3] end connection 192.168.10.90:57440 (1 connection now open)
+2014-08-05T10:48:04.515+0800 [initandlisten] connection accepted from 192.168.10.90:6904 #4 (2 connections now open)
+2014-08-05T10:48:04.515+0800 [conn4] end connection 192.168.10.90:6904 (1 connection now open)
+2014-08-05T10:48:06.515+0800 [initandlisten] connection accepted from 192.168.10.90:6956 #5 (2 connections now open)
+2014-08-05T10:49:50.156+0800 [conn1] end connection 127.0.0.1:49536 (1 connection now open)
+2014-08-05T10:50:46.906+0800 [clientcursormon] mem (MB) res:47 virt:158
+2014-08-05T10:50:46.906+0800 [clientcursormon]  mapped:80
+2014-08-05T10:50:46.906+0800 [clientcursormon]  connections:1
+2014-08-05T10:55:46.906+0800 [clientcursormon] mem (MB) res:47 virt:158
+2014-08-05T10:55:46.906+0800 [clientcursormon]  mapped:80
+2014-08-05T10:55:46.906+0800 [clientcursormon]  connections:1
+2014-08-05T11:00:46.906+0800 [clientcursormon] mem (MB) res:47 virt:158
+2014-08-05T11:00:46.906+0800 [clientcursormon]  mapped:80
+2014-08-05T11:00:46.906+0800 [clientcursormon]  connections:1
+2014-08-05T11:05:46.906+0800 [clientcursormon] mem (MB) res:47 virt:158
+2014-08-05T11:05:46.906+0800 [clientcursormon]  mapped:80
+2014-08-05T11:05:46.906+0800 [clientcursormon]  connections:1
+2014-08-05T11:10:46.906+0800 [clientcursormon] mem (MB) res:47 virt:158
+2014-08-05T11:10:46.906+0800 [clientcursormon]  mapped:80
+2014-08-05T11:10:46.906+0800 [clientcursormon]  connections:1
+2014-08-05T11:13:16.562+0800 [conn5] end connection 192.168.10.90:6956 (0 connections now open)
+2014-08-05T11:13:16.562+0800 [initandlisten] connection accepted from 192.168.10.90:44874 #6 (1 connection now open)
+2014-08-05T11:13:16.562+0800 [conn6] end connection 192.168.10.90:44874 (0 connections now open)
+2014-08-05T11:13:18.562+0800 [initandlisten] connection accepted from 192.168.10.90:44878 #7 (1 connection now open)
+2014-08-05T11:15:46.906+0800 [clientcursormon] mem (MB) res:47 virt:158
+2014-08-05T11:15:46.906+0800 [clientcursormon]  mapped:80
+2014-08-05T11:15:46.906+0800 [clientcursormon]  connections:1
+2014-08-05T11:20:46.906+0800 [clientcursormon] mem (MB) res:47 virt:158
+2014-08-05T11:20:46.906+0800 [clientcursormon]  mapped:80
+2014-08-05T11:20:46.906+0800 [clientcursormon]  connections:1
+2014-08-05T11:25:05.281+0800 [initandlisten] connection accepted from 192.168.10.90:54594 #8 (2 connections now open)
+2014-08-05T11:25:05.281+0800 [FileAllocator] allocating new datafile e:\liveserver\bin\mongodb\data\db\test.ns, filling with zeroes...
+2014-08-05T11:25:05.281+0800 [FileAllocator] creating directory e:\liveserver\bin\mongodb\data\db\_tmp
+2014-08-05T11:25:05.281+0800 [FileAllocator] done allocating datafile e:\liveserver\bin\mongodb\data\db\test.ns, size: 16MB,  took 0.002 secs
+2014-08-05T11:25:05.281+0800 [FileAllocator] allocating new datafile e:\liveserver\bin\mongodb\data\db\test.0, filling with zeroes...
+2014-08-05T11:25:05.328+0800 [FileAllocator] done allocating datafile e:\liveserver\bin\mongodb\data\db\test.0, size: 64MB,  took 0.031 secs
+2014-08-05T11:25:05.328+0800 [conn8] build index on: test.people properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "test.people" }
+2014-08-05T11:25:05.328+0800 [conn8] 	 added index to empty collection
+2014-08-05T11:25:05.343+0800 [conn8] end connection 192.168.10.90:54594 (1 connection now open)
+2014-08-05T11:25:23.312+0800 [conn7] end connection 192.168.10.90:44878 (0 connections now open)
+2014-08-05T11:25:23.312+0800 [initandlisten] connection accepted from 192.168.10.90:54629 #9 (1 connection now open)
+2014-08-05T11:25:23.312+0800 [conn9] end connection 192.168.10.90:54629 (0 connections now open)
+2014-08-05T11:25:25.312+0800 [initandlisten] connection accepted from 192.168.10.90:54633 #10 (1 connection now open)
+2014-08-05T11:25:35.859+0800 [conn10] end connection 192.168.10.90:54633 (0 connections now open)
+2014-08-05T11:25:35.859+0800 [initandlisten] connection accepted from 192.168.10.90:54647 #11 (1 connection now open)
+2014-08-05T11:25:35.859+0800 [conn11] end connection 192.168.10.90:54647 (0 connections now open)
+2014-08-05T11:25:37.859+0800 [initandlisten] connection accepted from 192.168.10.90:54654 #12 (1 connection now open)
+2014-08-05T11:25:46.906+0800 [clientcursormon] mem (MB) res:50 virt:238
+2014-08-05T11:25:46.906+0800 [clientcursormon]  mapped:160
+2014-08-05T11:25:46.906+0800 [clientcursormon]  connections:1
+2014-08-05T11:25:48.187+0800 [conn12] command test.$cmd command: dbStats { dbstats: 1 } keyUpdates:0 numYields:0 locks(micros) r:119180 reslen:292 119ms
+2014-08-05T11:25:48.203+0800 [conn12] end connection 192.168.10.90:54654 (0 connections now open)
+2014-08-05T11:25:50.203+0800 [initandlisten] connection accepted from 192.168.10.90:54698 #13 (1 connection now open)
+2014-08-05T11:26:06.203+0800 [conn13] end connection 192.168.10.90:54698 (0 connections now open)
+2014-08-05T11:26:06.203+0800 [initandlisten] connection accepted from 192.168.10.90:54733 #14 (1 connection now open)
+2014-08-05T11:26:11.156+0800 [conn14] end connection 192.168.10.90:54733 (0 connections now open)
+2014-08-05T11:26:11.156+0800 [initandlisten] connection accepted from 192.168.10.90:54738 #15 (1 connection now open)
+2014-08-05T11:26:46.906+0800 [clientcursormon] mem (MB) res:63 virt:238
+2014-08-05T11:26:46.906+0800 [clientcursormon]  mapped:160
+2014-08-05T11:26:46.906+0800 [clientcursormon]  connections:1
+2014-08-05T11:26:53.062+0800 [FileAllocator] allocating new datafile e:\liveserver\bin\mongodb\data\db\game.ns, filling with zeroes...
+2014-08-05T11:26:53.062+0800 [FileAllocator] done allocating datafile e:\liveserver\bin\mongodb\data\db\game.ns, size: 16MB,  took 0.001 secs
+2014-08-05T11:26:53.062+0800 [FileAllocator] allocating new datafile e:\liveserver\bin\mongodb\data\db\game.0, filling with zeroes...
+2014-08-05T11:26:53.062+0800 [FileAllocator] done allocating datafile e:\liveserver\bin\mongodb\data\db\game.0, size: 64MB,  took 0.001 secs
+2014-08-05T11:26:53.062+0800 [conn15] build index on: game.temporary properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "game.temporary" }
+2014-08-05T11:26:53.062+0800 [conn15] 	 added index to empty collection
+2014-08-05T11:26:53.062+0800 [conn15] CMD: drop game.temporary
+2014-08-05T11:27:46.906+0800 [clientcursormon] mem (MB) res:68 virt:318
+2014-08-05T11:27:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T11:27:46.906+0800 [clientcursormon]  connections:1
+2014-08-05T11:32:46.906+0800 [clientcursormon] mem (MB) res:68 virt:318
+2014-08-05T11:32:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T11:32:46.906+0800 [clientcursormon]  connections:1
+2014-08-05T11:37:46.906+0800 [clientcursormon] mem (MB) res:68 virt:318
+2014-08-05T11:37:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T11:37:46.906+0800 [clientcursormon]  connections:1
+2014-08-05T11:42:46.906+0800 [clientcursormon] mem (MB) res:68 virt:318
+2014-08-05T11:42:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T11:42:46.906+0800 [clientcursormon]  connections:1
+2014-08-05T11:47:46.906+0800 [clientcursormon] mem (MB) res:68 virt:318
+2014-08-05T11:47:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T11:47:46.906+0800 [clientcursormon]  connections:1
+2014-08-05T11:52:46.906+0800 [clientcursormon] mem (MB) res:68 virt:318
+2014-08-05T11:52:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T11:52:46.906+0800 [clientcursormon]  connections:1
+2014-08-05T11:55:41.296+0800 [initandlisten] connection accepted from 127.0.0.1:58635 #16 (2 connections now open)
+2014-08-05T11:57:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T11:57:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T11:57:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T12:02:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T12:02:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T12:02:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T12:07:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T12:07:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T12:07:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T12:12:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T12:12:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T12:12:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T12:17:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T12:17:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T12:17:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T12:22:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T12:22:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T12:22:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T12:26:21.156+0800 [conn15] end connection 192.168.10.90:54738 (1 connection now open)
+2014-08-05T12:26:21.156+0800 [initandlisten] connection accepted from 192.168.10.90:26344 #17 (2 connections now open)
+2014-08-05T12:27:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T12:27:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T12:27:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T12:32:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T12:32:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T12:32:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T12:37:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T12:37:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T12:37:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T12:42:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T12:42:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T12:42:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T12:47:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T12:47:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T12:47:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T12:52:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T12:52:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T12:52:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T12:57:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T12:57:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T12:57:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T13:02:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T13:02:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T13:02:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T13:07:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T13:07:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T13:07:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T13:12:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T13:12:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T13:12:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T13:17:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T13:17:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T13:17:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T13:22:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T13:22:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T13:22:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T13:26:31.156+0800 [conn17] end connection 192.168.10.90:26344 (1 connection now open)
+2014-08-05T13:26:31.156+0800 [initandlisten] connection accepted from 192.168.10.90:34410 #18 (2 connections now open)
+2014-08-05T13:27:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T13:27:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T13:27:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T13:32:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T13:32:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T13:32:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T13:37:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T13:37:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T13:37:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T13:42:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T13:42:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T13:42:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T13:47:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T13:47:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T13:47:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T13:52:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T13:52:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T13:52:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T13:57:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T13:57:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T13:57:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T14:02:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T14:02:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T14:02:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T14:07:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T14:07:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T14:07:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T14:12:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T14:12:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T14:12:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T14:17:11.687+0800 [conn18] end connection 192.168.10.90:34410 (1 connection now open)
+2014-08-05T14:17:11.687+0800 [initandlisten] connection accepted from 192.168.10.90:63284 #19 (2 connections now open)
+2014-08-05T14:17:34.968+0800 [conn19] end connection 192.168.10.90:63284 (1 connection now open)
+2014-08-05T14:17:34.968+0800 [initandlisten] connection accepted from 192.168.10.90:63318 #20 (2 connections now open)
+2014-08-05T14:17:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T14:17:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T14:17:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T14:22:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T14:22:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T14:22:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T14:27:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T14:27:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T14:27:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T14:32:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T14:32:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T14:32:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T14:37:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T14:37:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T14:37:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T14:42:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T14:42:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T14:42:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T14:47:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T14:47:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T14:47:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T14:52:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T14:52:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T14:52:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T14:57:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T14:57:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T14:57:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T15:02:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T15:02:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T15:02:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T15:07:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T15:07:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T15:07:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T15:12:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T15:12:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T15:12:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T15:17:44.968+0800 [conn20] end connection 192.168.10.90:63318 (1 connection now open)
+2014-08-05T15:17:44.968+0800 [initandlisten] connection accepted from 192.168.10.90:58333 #21 (2 connections now open)
+2014-08-05T15:17:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T15:17:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T15:17:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T15:22:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T15:22:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T15:22:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T15:27:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T15:27:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T15:27:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T15:32:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T15:32:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T15:32:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T15:37:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T15:37:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T15:37:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T15:42:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T15:42:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T15:42:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T15:47:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T15:47:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T15:47:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T15:52:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T15:52:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T15:52:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T15:57:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T15:57:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T15:57:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T16:02:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T16:02:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T16:02:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T16:07:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T16:07:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T16:07:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T16:12:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T16:12:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T16:12:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T16:17:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T16:17:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T16:17:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T16:17:54.968+0800 [conn21] end connection 192.168.10.90:58333 (1 connection now open)
+2014-08-05T16:17:54.968+0800 [initandlisten] connection accepted from 192.168.10.90:59801 #22 (2 connections now open)
+2014-08-05T16:22:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T16:22:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T16:22:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T16:25:58.406+0800 [conn22] end connection 192.168.10.90:59801 (1 connection now open)
+2014-08-05T16:25:58.406+0800 [initandlisten] connection accepted from 192.168.10.90:64930 #23 (2 connections now open)
+2014-08-05T16:27:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T16:27:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T16:27:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T16:32:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T16:32:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T16:32:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T16:37:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T16:37:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T16:37:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T16:42:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T16:42:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T16:42:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T16:47:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T16:47:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T16:47:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T16:52:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T16:52:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T16:52:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T16:57:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T16:57:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T16:57:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T17:02:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T17:02:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T17:02:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T17:07:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T17:07:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T17:07:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T17:12:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T17:12:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T17:12:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T17:17:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T17:17:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T17:17:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T17:22:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T17:22:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T17:22:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T17:26:08.406+0800 [conn23] end connection 192.168.10.90:64930 (1 connection now open)
+2014-08-05T17:26:08.406+0800 [initandlisten] connection accepted from 192.168.10.90:22503 #24 (2 connections now open)
+2014-08-05T17:27:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T17:27:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T17:27:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T17:32:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T17:32:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T17:32:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T17:37:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T17:37:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T17:37:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T17:42:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T17:42:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T17:42:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T17:47:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T17:47:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T17:47:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T17:52:46.906+0800 [clientcursormon] mem (MB) res:68 virt:319
+2014-08-05T17:52:46.906+0800 [clientcursormon]  mapped:240
+2014-08-05T17:52:46.906+0800 [clientcursormon]  connections:2
+2014-08-05T17:57:00.609+0800 [conn16] end connection 127.0.0.1:58635 (1 connection now open)
+2014-08-05T17:57:45.218+0800 [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2014-08-05T17:57:45.218+0800 [serviceShutdown] now exiting
+2014-08-05T17:57:45.218+0800 [serviceShutdown] dbexit: 
+2014-08-05T17:57:45.218+0800 [serviceShutdown] shutdown: going to close listening sockets...
+2014-08-05T17:57:45.218+0800 [serviceShutdown] closing listening socket: 464
+2014-08-05T17:57:45.218+0800 [serviceShutdown] shutdown: going to flush diaglog...
+2014-08-05T17:57:45.218+0800 [serviceShutdown] shutdown: going to close sockets...
+2014-08-05T17:57:45.218+0800 [serviceShutdown] shutdown: waiting for fs preallocator...
+2014-08-05T17:57:45.218+0800 [serviceShutdown] shutdown: closing all files...
+2014-08-05T17:57:45.218+0800 [conn24] end connection 192.168.10.90:22503 (0 connections now open)
+2014-08-05T17:57:45.218+0800 [serviceShutdown] closeAllFiles() finished
+2014-08-05T17:57:45.218+0800 [serviceShutdown] shutdown: removing fs lock...

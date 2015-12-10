@@ -1,0 +1,11 @@
+// 消息序号
+package msg_proto;
+
+enum MsgCmd {
+	None = 0;
+	CmdResult_S = 1; // 错误码
+	
+	// 登录
+	RequestLogin_C = 2; // 请求登录
+	LoginToken_S = 3; // 登录的验证Token
+}

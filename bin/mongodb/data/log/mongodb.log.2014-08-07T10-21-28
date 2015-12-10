@@ -1,0 +1,48 @@
+2014-08-07T11:06:53.921+0800 Trying to start Windows service 'MongoDB'
+2014-08-07T11:06:54.093+0800 Service running
+2014-08-07T11:06:54.125+0800 [initandlisten] MongoDB starting : pid=748 port=27017 dbpath=e:\liveserver\bin\mongodb\data\db 32-bit host=Â¬ÊÀ½Ü
+2014-08-07T11:06:54.125+0800 [initandlisten] 
+2014-08-07T11:06:54.125+0800 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2014-08-07T11:06:54.125+0800 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2014-08-07T11:06:54.125+0800 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2014-08-07T11:06:54.125+0800 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2014-08-07T11:06:54.125+0800 [initandlisten] 
+2014-08-07T11:06:54.125+0800 [initandlisten] ** NOTE: your operating system version does not support the method that MongoDB
+2014-08-07T11:06:54.125+0800 [initandlisten] **       uses to detect impending page faults.
+2014-08-07T11:06:54.125+0800 [initandlisten] **       This may result in slower performance for certain use cases
+2014-08-07T11:06:54.125+0800 [initandlisten] 
+2014-08-07T11:06:54.125+0800 [initandlisten] targetMinOS: Windows XP SP3
+2014-08-07T11:06:54.125+0800 [initandlisten] db version v2.6.3
+2014-08-07T11:06:54.125+0800 [initandlisten] git version: 255f67a66f9603c59380b2a389e386910bbb52cb
+2014-08-07T11:06:54.125+0800 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2014-08-07T11:06:54.125+0800 [initandlisten] allocator: system
+2014-08-07T11:06:54.125+0800 [initandlisten] options: { service: true, storage: { dbPath: "e:\liveserver\bin\mongodb\data\db" }, systemLog: { destination: "file", path: "e:\liveserver\bin\mongodb\data\log\mongodb.log" } }
+2014-08-07T11:06:54.171+0800 [initandlisten] waiting for connections on port 27017
+2014-08-07T11:07:01.531+0800 [initandlisten] connection accepted from 192.168.10.90:60023 #1 (1 connection now open)
+2014-08-07T11:07:04.968+0800 [conn1] end connection 192.168.10.90:60023 (0 connections now open)
+2014-08-07T11:07:07.015+0800 [initandlisten] connection accepted from 192.168.10.90:60056 #2 (1 connection now open)
+2014-08-07T11:07:26.984+0800 [FileAllocator] allocating new datafile e:\liveserver\bin\mongodb\data\db\auth.ns, filling with zeroes...
+2014-08-07T11:07:27.000+0800 [FileAllocator] creating directory e:\liveserver\bin\mongodb\data\db\_tmp
+2014-08-07T11:07:27.000+0800 [FileAllocator] done allocating datafile e:\liveserver\bin\mongodb\data\db\auth.ns, size: 16MB,  took 0.002 secs
+2014-08-07T11:07:27.031+0800 [FileAllocator] allocating new datafile e:\liveserver\bin\mongodb\data\db\auth.0, filling with zeroes...
+2014-08-07T11:07:27.046+0800 [FileAllocator] done allocating datafile e:\liveserver\bin\mongodb\data\db\auth.0, size: 64MB,  took 0.001 secs
+2014-08-07T11:07:27.062+0800 [conn2] build index on: auth.temporary properties: { v: 1, key: { _id: 1 }, name: "_id_", ns: "auth.temporary" }
+2014-08-07T11:07:27.062+0800 [conn2] 	 added index to empty collection
+2014-08-07T11:07:27.078+0800 [conn2] CMD: drop auth.temporary
+2014-08-07T11:07:40.984+0800 [initandlisten] connection accepted from 127.0.0.1:60630 #3 (2 connections now open)
+2014-08-07T11:07:54.156+0800 [clientcursormon] mem (MB) res:83 virt:399
+2014-08-07T11:07:54.156+0800 [clientcursormon]  mapped:320
+2014-08-07T11:07:54.156+0800 [clientcursormon]  connections:2
+2014-08-07T11:08:05.062+0800 [conn3] end connection 127.0.0.1:60630 (1 connection now open)
+2014-08-07T11:08:12.515+0800 [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2014-08-07T11:08:12.515+0800 [serviceShutdown] now exiting
+2014-08-07T11:08:12.515+0800 [serviceShutdown] dbexit: 
+2014-08-07T11:08:12.515+0800 [serviceShutdown] shutdown: going to close listening sockets...
+2014-08-07T11:08:12.515+0800 [serviceShutdown] closing listening socket: 484
+2014-08-07T11:08:12.515+0800 [serviceShutdown] shutdown: going to flush diaglog...
+2014-08-07T11:08:12.515+0800 [serviceShutdown] shutdown: going to close sockets...
+2014-08-07T11:08:12.515+0800 [serviceShutdown] shutdown: waiting for fs preallocator...
+2014-08-07T11:08:12.515+0800 [serviceShutdown] shutdown: closing all files...
+2014-08-07T11:08:12.515+0800 [conn2] end connection 192.168.10.90:60056 (0 connections now open)
+2014-08-07T11:08:12.515+0800 [serviceShutdown] closeAllFiles() finished
+2014-08-07T11:08:12.515+0800 [serviceShutdown] shutdown: removing fs lock...

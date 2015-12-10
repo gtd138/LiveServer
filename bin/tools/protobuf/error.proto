@@ -1,0 +1,11 @@
+// 错误码
+package msg_proto;
+
+enum Error{
+	Init_None = -1; // 初始化用
+	Sucess = 0; // 成功
+	
+	// 登录
+	UnKnow_User = 1; // 不存在用户
+	Mismatch_Password = 2; // 不匹配的密码
+}

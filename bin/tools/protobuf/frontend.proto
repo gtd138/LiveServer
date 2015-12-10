@@ -1,0 +1,11 @@
+// 前端使用的消息结构
+package msg_proto;
+
+// 用于前端验证的token
+message Token {
+	required string sid = 1; 			// 会话ID
+	required string ip = 2; 			// IP
+	required string port = 3;			// port
+	required int64 conn_time = 4;	// 连接时间
+	required string pid = 5;			// 数据库id，暂定为string
+}
