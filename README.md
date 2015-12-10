@@ -1,0 +1,3 @@
+# LiveServer
+LiveServer是一个用Go语言编写的游戏服务器，分布式，采用goprobuf做协议，采用Mongodb做数据库，目前一些便利工具仅用于Windows下。
+使用前请先安装goprotobuf，以及mongodb！
