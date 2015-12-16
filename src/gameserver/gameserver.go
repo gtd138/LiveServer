@@ -17,13 +17,13 @@ import (
 
 func main() {
 	app := CreateServerApp()
-	//app := DebugCreateServerApp()
+	// app := DebugCreateServerApp()
 	app.Run()
 }
 
 // 调试创建服务器
 func DebugCreateServerApp() (app IServer) {
-	app = NewLobby("lobby")
+	app = NewGate("gate")
 	return
 }
 

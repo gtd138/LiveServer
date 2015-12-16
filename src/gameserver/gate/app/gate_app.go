@@ -30,7 +30,7 @@ func NewGate(server_type string) *Gate {
 
 func (this *Gate) Init() {
 	this.RegisterMsgHandle()
-	this.BaseServer.Init()
+	this.FrontendServer.Init()
 }
 
 // 注册消息回调
