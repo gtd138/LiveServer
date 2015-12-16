@@ -3,12 +3,13 @@ package db
 import (
 	"common"
 	. "config/db_config"
-	"gopkg.in/mgo.v2"
-	"gopkg.in/mgo.v2/bson"
 	"log"
 	"os"
 	"strings"
 	"time"
+
+	"gopkg.in/mgo.v2"
+	"gopkg.in/mgo.v2/bson"
 )
 
 const (
@@ -109,7 +110,8 @@ func (this *DB) connectDB() {
 func (this *DB) retry(t *common.Timer, args ...interface{}) bool {
 	var err error
 	this.Session, err = mgo.Dial(this.Host)
-	log.Println("连接数据库次数 = ", t.Count+1)
+	t.Count = t.Count + 1
+	log.Println("连接数据库次数 = ", t.Count)
 	if err != nil {
 		if t.Count >= RETRY_TIME {
 			log.Println("连接数据库次数过多，连接数据库失败！")

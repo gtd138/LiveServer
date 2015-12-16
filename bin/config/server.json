@@ -1,27 +1,27 @@
 {
 	"gate": [
-		{"id": 1, "type": "gate", "host": "127.0.0.1", "port": "1000", "clientPort": "1001", "frontend": true}
+		{"id": 1, "type": "gate", "host": "127.0.0.1", "port": "2000", "clientPort": "2001", "frontend": true}
 	],
 	"connector":[
-		{"id": 1, "type": "connector", "host": "127.0.0.1", "port": "2000", "clientPort": "2001", "frontend": true}
+		{"id": 1, "type": "connector", "host": "127.0.0.1", "port": "3000", "clientPort": "3001", "frontend": true}
 	],
 
 	"game": [
-		{"id": 1, "type": "game", "host": "127.0.0.1", "port": "3000"}
+		{"id": 1, "type": "game", "host": "127.0.0.1", "port": "4000"}
 	],
 	"database": [
-		{"id": 1, "type": "database", "host": "127.0.0.1", "port": "4000"}
+		{"id": 1, "type": "database", "host": "127.0.0.1", "port": "5000"}
 	],
 	"society": [
-		{"id": 1, "type": "society", "host": "127.0.0.1", "port": "5000"}
+		{"id": 1, "type": "society", "host": "127.0.0.1", "port": "6000"}
 	],
 	"master": [
-		{"id": 1, "type": "master", "host": "127.0.0.1", "port": "6000"}
+		{"id": 1, "type": "master", "host": "127.0.0.1", "port": "7000"}
 	],
 	"lobby": [
-		{"id": 1, "type": "lobby", "host": "127.0.0.1", "port": "7000"}
+		{"id": 1, "type": "lobby", "host": "127.0.0.1", "port": "8000"}
 	],
 	"auth": [
-		{"id": 1, "type": "auth", "host": "127.0.0.1", "port": "8000"}
+		{"id": 1, "type": "auth", "host": "127.0.0.1", "port": "9000"}
 	]
 }

@@ -117,7 +117,8 @@ func (this *Connection) ConnectRPCServer(addr, port, server_type string, server_
 
 // 重连服务器
 func (this *Connection) startConnectRemoteServer(t *common.Timer, arg ...interface{}) bool {
-	log.Println("尝试连接次数 = ", t.Count+1)
+	t.Count = t.Count + 1
+	log.Println("尝试连接次数 = ", t.Count)
 	if len(arg) <= 0 {
 		return false
 	}
