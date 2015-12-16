@@ -4,13 +4,13 @@
 
 package msg_proto
 
-import proto "code.google.com/p/goprotobuf/proto"
-import json "encoding/json"
+import proto "github.com/golang/protobuf/proto"
+import fmt "fmt"
 import math "math"
 
-// Reference proto, json, and math imports to suppress error if they are not otherwise used.
+// Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal
-var _ = &json.SyntaxError{}
+var _ = fmt.Errorf
 var _ = math.Inf
 
 type CmdResult struct {
@@ -18,16 +18,28 @@ type CmdResult struct {
 	XXX_unrecognized []byte `json:"-"`
 }
 
-func (m *CmdResult) Reset()         { *m = CmdResult{} }
-func (m *CmdResult) String() string { return proto.CompactTextString(m) }
-func (*CmdResult) ProtoMessage()    {}
+func (m *CmdResult) Reset()                    { *m = CmdResult{} }
+func (m *CmdResult) String() string            { return proto.CompactTextString(m) }
+func (*CmdResult) ProtoMessage()               {}
+func (*CmdResult) Descriptor() ([]byte, []int) { return fileDescriptor4, []int{0} }
 
 func (m *CmdResult) GetErrorCode() Error {
 	if m != nil && m.ErrorCode != nil {
 		return *m.ErrorCode
 	}
-	return 0
+	return Error_Init_None
 }
 
 func init() {
+	proto.RegisterType((*CmdResult)(nil), "msg_proto.CmdResult")
+}
+
+var fileDescriptor4 = []byte{
+	// 90 bytes of a gzipped FileDescriptorProto
+	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x09, 0x6e, 0x88, 0x02, 0xff, 0xe2, 0xe2, 0x29, 0x4a, 0x2d, 0x2e,
+	0xcd, 0x29, 0xd1, 0x2b, 0x28, 0xca, 0x2f, 0xc9, 0x17, 0xe2, 0xcc, 0x2d, 0x4e, 0x8f, 0x07, 0x33,
+	0xa5, 0xb8, 0x53, 0x8b, 0x8a, 0xf2, 0x8b, 0x20, 0xe2, 0x4a, 0x86, 0x5c, 0x9c, 0xce, 0xb9, 0x29,
+	0x41, 0x60, 0xa5, 0x42, 0x2a, 0x5c, 0x5c, 0x60, 0xb9, 0xf8, 0xe4, 0xfc, 0x94, 0x54, 0x09, 0x46,
+	0x05, 0x26, 0x0d, 0x3e, 0x23, 0x01, 0x3d, 0xb8, 0x4e, 0x3d, 0x57, 0x90, 0x24, 0x20, 0x00, 0x00,
+	0xff, 0xff, 0x54, 0xff, 0xda, 0xc2, 0x59, 0x00, 0x00, 0x00,
 }

@@ -2,10 +2,12 @@ package gate
 
 // gate服的消息请求处理
 import (
-	"code.google.com/p/goprotobuf/proto"
+	// "code.google.com/p/goprotobuf/proto"
 	"common"
 	"gamelogic/rpc"
 	"msg_proto"
+
+	"github.com/golang/protobuf/proto"
 )
 
 // 处理登录请求

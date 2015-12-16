@@ -2,11 +2,13 @@ package network
 
 // 消息模块
 import (
-	"code.google.com/p/goprotobuf/proto"
+	// "code.google.com/p/goprotobuf/proto"
 	"common"
 	"config/message_config"
 	"math"
 	"msg_proto"
+
+	"github.com/golang/protobuf/proto"
 	//"reflect"
 )
 

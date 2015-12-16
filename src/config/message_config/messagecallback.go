@@ -1,8 +1,10 @@
 package msg_conf
 
 import (
-	"code.google.com/p/goprotobuf/proto"
+	// "code.google.com/p/goprotobuf/proto"
 	. "msg_proto"
+
+	"github.com/golang/protobuf/proto"
 )
 
 // 单件

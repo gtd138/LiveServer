@@ -4,25 +4,25 @@
 
 package msg_proto
 
-import proto "code.google.com/p/goprotobuf/proto"
-import json "encoding/json"
+import proto "github.com/golang/protobuf/proto"
+import fmt "fmt"
 import math "math"
 
-// Reference proto, json, and math imports to suppress error if they are not otherwise used.
+// Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal
-var _ = &json.SyntaxError{}
+var _ = fmt.Errorf
 var _ = math.Inf
 
-// 登录请求
 type RequestLogin struct {
 	Username         *string `protobuf:"bytes,1,req,name=username" json:"username,omitempty"`
 	Password         *string `protobuf:"bytes,2,req,name=password" json:"password,omitempty"`
 	XXX_unrecognized []byte  `json:"-"`
 }
 
-func (m *RequestLogin) Reset()         { *m = RequestLogin{} }
-func (m *RequestLogin) String() string { return proto.CompactTextString(m) }
-func (*RequestLogin) ProtoMessage()    {}
+func (m *RequestLogin) Reset()                    { *m = RequestLogin{} }
+func (m *RequestLogin) String() string            { return proto.CompactTextString(m) }
+func (*RequestLogin) ProtoMessage()               {}
+func (*RequestLogin) Descriptor() ([]byte, []int) { return fileDescriptor2, []int{0} }
 
 func (m *RequestLogin) GetUsername() string {
 	if m != nil && m.Username != nil {
@@ -39,4 +39,15 @@ func (m *RequestLogin) GetPassword() string {
 }
 
 func init() {
+	proto.RegisterType((*RequestLogin)(nil), "msg_proto.RequestLogin")
+}
+
+var fileDescriptor2 = []byte{
+	// 92 bytes of a gzipped FileDescriptorProto
+	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x09, 0x6e, 0x88, 0x02, 0xff, 0xe2, 0xe2, 0x4a, 0x4f, 0x2c, 0x49,
+	0xd5, 0x2b, 0x28, 0xca, 0x2f, 0xc9, 0x17, 0xe2, 0xcc, 0x2d, 0x4e, 0x8f, 0x07, 0x33, 0x95, 0x8c,
+	0xb8, 0x78, 0x82, 0x52, 0x0b, 0x4b, 0x53, 0x8b, 0x4b, 0x7c, 0xf2, 0xd3, 0x33, 0xf3, 0x84, 0x04,
+	0xb8, 0x38, 0x4a, 0x8b, 0x53, 0x8b, 0xf2, 0x12, 0x73, 0x53, 0x25, 0x18, 0x15, 0x98, 0x34, 0x38,
+	0x41, 0x22, 0x05, 0x89, 0xc5, 0xc5, 0xe5, 0xf9, 0x45, 0x29, 0x12, 0x4c, 0x20, 0x11, 0x40, 0x00,
+	0x00, 0x00, 0xff, 0xff, 0x62, 0xc2, 0x10, 0x83, 0x4b, 0x00, 0x00, 0x00,
 }
