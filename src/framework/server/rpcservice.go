@@ -15,7 +15,7 @@ type RPCService struct {
 	ServerInterface IServer // 传入的服务器接口
 }
 
-// 接受到路由的消息(后端使用)
+// 接收到路由的消息(后端使用)
 func (this *RPCService) RouteMessage(msg_list []*MessageObject, pbOk *bool) error {
 	this.ServerInterface.GetBaseServer().PushRevMessage(msg_list)
 	*pbOk = true

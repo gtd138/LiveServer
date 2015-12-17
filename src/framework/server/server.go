@@ -278,7 +278,7 @@ func (this *BaseServer) HandleRequest() {
 	}
 }
 
-// rpc调用
+// 异步rpc调用
 func (this *BaseServer) RPCCall(server_type string, server_id int, fun string, arg_1 interface{}, arg_2 interface{}) {
 	list := this.FindPRCClientsByDetail(server_type, server_id)
 	for _, v := range list {
